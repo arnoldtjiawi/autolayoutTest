@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="autolayoutTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R4d-js-y2p">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frame" translatesAutoresizingMaskIntoConstraints="NO" id="GyT-8v-aqE">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="HyC-Nx-fsl"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dark Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HgS-Ec-IpA">
+                                        <rect key="frame" x="24" y="174" width="272" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Eh-O3-TY8">
+                                        <rect key="frame" x="24" y="219" width="272" height="1156.5"/>
+                                        <mutableString key="text">A local coalition forms a task force to address the rising HIV rate among teens in the community.  A group of parents meets to wrestle with their feeling that their school district is shortchanging its students.  A college class in human services approaches the topic of dealing with reluctant participants.  Members of an environmental group attend a workshop on the effects of global warming.  A politician convenes a “town hall meeting” of constituents to brainstorm ideas for the economic development of the region.  A community health educator facilitates a smoking cessation support group.
+
+All of these might be examples of group discussions, although they have different purposes, take place in different locations, and probably run in different ways.  Group discussions are common in a democratic society, and, as a community builder, it’s more than likely that you have been and will continue to be involved in many of them.  You also may be in a position to lead one, and that’s what this section is about.  In this last section of a chapter on group facilitation, we’ll examine what it takes to lead a discussion group well, and how you can go about doing it.
+
+WHAT IS AN EFFECTIVE GROUP DISCUSSION?
+The literal definition of a group discussion is obvious: a critical conversation about a particular topic, or perhaps a range of topics, conducted in a group of a size that allows participation by all members.  A group of two or three generally doesn’t need a leader to have a good discussion, but once the number reaches five or six, a leader or facilitator can often be helpful.  When the group numbers eight or more, a leader or facilitator, whether formal or informal, is almost always helpful in ensuring an effective discussion.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="HgS-Ec-IpA" secondAttribute="trailing" constant="24" id="CFe-Pf-XTk"/>
+                                    <constraint firstAttribute="trailing" secondItem="GyT-8v-aqE" secondAttribute="trailing" id="GO9-3w-zAd"/>
+                                    <constraint firstItem="GyT-8v-aqE" firstAttribute="leading" secondItem="R4d-js-y2p" secondAttribute="leading" id="I5z-zD-T72"/>
+                                    <constraint firstItem="HgS-Ec-IpA" firstAttribute="top" secondItem="GyT-8v-aqE" secondAttribute="bottom" constant="24" id="Nj5-8g-6pO"/>
+                                    <constraint firstAttribute="bottom" secondItem="2Eh-O3-TY8" secondAttribute="bottom" constant="24" id="YOo-Fs-txt"/>
+                                    <constraint firstItem="GyT-8v-aqE" firstAttribute="centerX" secondItem="R4d-js-y2p" secondAttribute="centerX" id="dQn-hA-qgO"/>
+                                    <constraint firstItem="HgS-Ec-IpA" firstAttribute="leading" secondItem="R4d-js-y2p" secondAttribute="leading" constant="24" id="fuK-ih-0dq"/>
+                                    <constraint firstItem="2Eh-O3-TY8" firstAttribute="leading" secondItem="R4d-js-y2p" secondAttribute="leading" constant="24" id="iZs-gE-Ug5"/>
+                                    <constraint firstAttribute="trailing" secondItem="2Eh-O3-TY8" secondAttribute="trailing" constant="24" id="lw8-x1-Mpr"/>
+                                    <constraint firstItem="GyT-8v-aqE" firstAttribute="top" secondItem="R4d-js-y2p" secondAttribute="top" id="oif-2I-QxX"/>
+                                    <constraint firstItem="2Eh-O3-TY8" firstAttribute="top" secondItem="HgS-Ec-IpA" secondAttribute="bottom" constant="24" id="uLD-43-udg"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="R4d-js-y2p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Jak-H9-vX6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R4d-js-y2p" secondAttribute="trailing" id="Ook-ka-f2P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R4d-js-y2p" secondAttribute="trailing" id="Q38-5C-PMQ"/>
+                            <constraint firstItem="R4d-js-y2p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WaY-Nl-DLz"/>
+                            <constraint firstItem="R4d-js-y2p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gCD-5g-1VY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="R4d-js-y2p" secondAttribute="bottom" id="iGr-3n-ldV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="R4d-js-y2p" secondAttribute="bottom" id="mGy-ru-QQf"/>
+                            <constraint firstItem="R4d-js-y2p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="u9V-ot-5oz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="frame" width="3000" height="3896"/>
+    </resources>
+</document>
